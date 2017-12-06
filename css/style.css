@@ -11,14 +11,84 @@
 :root{
     --background: #000;
 }
+:root{
+    --texto: #fff;
+}
 
 .mensagem-alerta{
     padding: 20px 0;
 }
 
-/* GERAL */
+/********************
+    GERAL 
+********************/
+.container{
+    max-width: 900px;
+}
 section{
     margin: 30px 0;
+}
+
+/********************
+    NAVBAR 
+********************/
+.navbar-custom{
+    background: transparent;
+    z-index: 5;
+}
+.navbar-nav > li >a{
+    color: #fff;
+}
+
+.navbar-custom .navbar-nav > li > a.active,
+.navbar-custom .navbar-nav > li >a:hover{
+    color: #eee;
+    background-color: var(--cor);
+}
+
+/********************
+    SLIDER-PRINCIPAL 
+********************/
+#sli-principal img{
+    width: 100%;
+}
+/********************
+    DE COMUM 
+********************/
+.titulo{
+}
+.titulo-img{
+    float:left;
+    width: 30px;
+    display: inline-block;
+    margin-right: 10%;
+}
+.titulos{
+    display: inline-block;
+    margin: 3% 0 0;
+    
+}
+.titulos h2, h1{
+    padding: 0;
+    margin: 0;
+    letter-spacing: 4px;
+}
+.titulos h2{
+    font-size: 1em;
+}
+.titulos h1{
+    font-size: 1.3em;
+}
+
+.descricao{
+    margin: 20px 0;
+}
+
+/********************
+    DE COMUM 
+********************/
+.sobre{
+    padding: 20px 0;
 }
 
 /********************
@@ -29,26 +99,9 @@ footer{
     bottom: 0;
     background-color: var(--background);
 }
-footer .redes-sociais{
-    margin: 30px;
-    text-align: center;
-}
 
-footer .redes-sociais a{
-    text-align: center;
-    padding: 0 20px;
-}
-
-footer .redes-sociais i{
-    color: var(--cor);
-}
-
-footer .redes-sociais i:hover{
-    opacity: 0.7;
-}
 
 footer .copyright{
-    position:relative;
     font-weight:300;
     margin:0 auto;
     padding:5px 0 5px;
