@@ -7,12 +7,16 @@
         <meta name="keywords" content=""/>
         <meta name="author" content="Agência Alca"/>
 
-        <title></title>
-        <link rel="icon" href="img/favicon.png" />
+        <title>Arroyo Pets</title>
+        <link rel="icon" href="img/icon_am.png" />
 
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"/>
+        <!-- Custom style my instagram gallery -->
+        <link type="text/css" rel="stylesheet" href="css/my-instagram-gallery.css" />
 
     </head>
     <body>
@@ -41,3 +45,4 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container -->
         </nav>
+        <main>

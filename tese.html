@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html>
+
+    <head>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta charset="utf-8">
+
+        <title>jQuery Instagram Lite Plugin</title>
+
+        <meta name="description" content="A simple, lightweight jQuery plugin used to display a user's Instagram photos.">
+
+        <meta name="author" content="http://michaelynch.com">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+
+        <!-- My instagram gallery -->
+        <!-- Fancybox -->
+        <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"/>
+
+        <style>
+            #instagram {
+                margin:0;
+                padding:0;
+                overflow:hidden;
+            }
+
+            #instagram li {
+                list-style:none;
+                float:left;
+                margin:0 20px 20px 0;
+            }
+        </style>
+
+    </head>
+
+    <body lang="en">
+
+        <div id="instagram"></div>
+
+
+   
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- jQuery my instagram gallery -->
+<script src="js/my-instagram-gallery.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".demo").myig(
+                ins_id = 322548972, // your user_id
+                ins_count = 10, // Count of media to return
+                ins_token = '322548972.1677ed0.fb6b8f7b7c2740dfb336abea8134adac' // your token
+                );
+    });
+</script>
+
+<!-- Include fancybox library -->
+<link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".myig_popup").fancybox({
+            openEffect: 'fade',
+            closeEffect: 'fade'
+        });
+    });
+</script>
+
+
+    </body>
+</html>

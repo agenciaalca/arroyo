@@ -6,13 +6,13 @@
 
 /* COR PADRÃO */
 :root{
-    --cor: #0b59a3;  
+    --cor: #07AB94;  
 }
 :root{
-    --background: #000;
+    --background: #FDB617;
 }
 :root{
-    --texto: #fff;
+    --texto: #eee;
 }
 
 .mensagem-alerta{
@@ -22,9 +22,7 @@
 /********************
     GERAL 
 ********************/
-.container{
-    max-width: 900px;
-}
+
 section{
     margin: 30px 0;
 }
@@ -52,21 +50,25 @@ section{
 #sli-principal img{
     width: 100%;
 }
+.carousel-caption{
+    top: 40%;
+    color: var(--texto);
+}
 /********************
     DE COMUM 
 ********************/
 .titulo{
+    margin-bottom: 40px;
 }
 .titulo-img{
     float:left;
-    width: 30px;
     display: inline-block;
-    margin-right: 10%;
 }
+
 .titulos{
     display: inline-block;
-    margin: 3% 0 0;
-    
+    margin: 1.5% 0 0 1.5%;
+
 }
 .titulos h2, h1{
     padding: 0;
@@ -79,16 +81,111 @@ section{
 .titulos h1{
     font-size: 1.3em;
 }
-
+.mapa,
+.formulario-contato,
 .descricao{
-    margin: 20px 0;
+    margin: 20px 0 25px;
 }
-
+.btn-custom{
+    background-color: var(--cor);
+    color: var(--texto);
+    border-radius: 0px;
+}
+.btn-custom:hover{
+    background-color: var(--cor);
+    color: var(--texto);
+}
 /********************
-    DE COMUM 
+    SOBRE 
 ********************/
 .sobre{
     padding: 20px 0;
+}
+.sobre .btn-custom{
+    width: 200px;
+}
+/********************
+    BANNER 
+********************/
+.banner img{
+    width: 100%;
+}
+/********************
+    INSTAGRAM 
+********************/
+#instagram {
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+#instagram li {
+    list-style:none;
+    float:left;
+    margin:0 20px 20px 0;
+}
+
+/********************
+    PLANOS 
+********************/
+.plano{
+    border: 2px solid #FDB617;
+    padding: 5%;
+    margin-right:  3%;
+}
+
+/********************
+    CONTATO 
+********************/
+.formulario-contato .btn-custom{
+    background-color: var(--cor);
+    color: var(--texto);
+    bottom: 15px;
+    position: absolute;
+    right: 15px;
+    border-radius: 0px;
+
+}
+
+.form-control{
+    background-color: #d5d5d5;
+    color: var(--cor)important;
+    border-radius: 0px;
+    border: none;
+}
+input {
+    outline: none;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+    color: var(--cor)!important;
+    transition: opacity 250ms ease-in-out;
+}
+:focus::-webkit-input-placeholder {
+    opacity: 0.5;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: var(--cor)!important;
+    transition: opacity 250ms ease-in-out;
+}
+:focus:-ms-input-placeholder {
+    opacity: 0.5;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: var(--cor);
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
+}
+:focus::-moz-placeholder {
+    opacity: 0.5;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+    color: var(--cor);
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
+}
+:focus:-moz-placeholder {
+    opacity: 0.5;
 }
 
 /********************
@@ -118,4 +215,21 @@ footer .copyright a{
 footer .copyright a:hover{ 
     color: #00d287;
     font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+    .plano{
+        margin: 10%;
+        padding: 10%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 988px) {
+    .plano{
+        margin: 5%;
+    }
+}
+@media only screen and (min-width: 980px) {
+
+    .plano{
+        max-width: 30%;
+    }
 }
