@@ -22,33 +22,47 @@
 /********************
     GERAL 
 ********************/
-
-section{
-    margin: 30px 0;
+.container{
+    max-width: 950px;
 }
 
 /********************
     NAVBAR 
 ********************/
-.navbar-custom{
+
+.navbar-default.affix {
+    background-color: var(--cor);
+    color: #fff;
+    border: none;
+}
+.navbar-default{
     background: transparent;
     z-index: 5;
+    transition: all .35s;
+    border: none;
 }
-.navbar-nav > li >a{
+.navbar-default .navbar-nav > li > a{
     color: #fff;
 }
 
-.navbar-custom .navbar-nav > li > a.active,
-.navbar-custom .navbar-nav > li >a:hover{
+.navbar-default .navbar-nav .active> a,
+.navbar-default .navbar-nav .active> a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li >a:hover{
     color: #eee;
-    background-color: var(--cor);
+    background-color: var(--background);
 }
 
 /********************
     SLIDER-PRINCIPAL 
 ********************/
-#sli-principal img{
+.sli-principal{
+    margin: 0;
+}
+.sli-principal img{
     width: 100%;
+
 }
 .carousel-caption{
     top: 40%;
@@ -91,9 +105,18 @@ section{
     color: var(--texto);
     border-radius: 0px;
 }
+.btn-custom:focus,
+.btn-custom:active,
 .btn-custom:hover{
     background-color: var(--cor);
     color: var(--texto);
+}
+#sobre,
+#contato,
+#servicos,
+#planos{
+    background-image: url('../img/background.png');
+         padding: 50px 0; 
 }
 /********************
     SOBRE 
@@ -103,6 +126,7 @@ section{
 }
 .sobre .btn-custom{
     width: 200px;
+    margin-top: 20px;
 }
 /********************
     BANNER 
@@ -113,16 +137,29 @@ section{
 /********************
     INSTAGRAM 
 ********************/
-#instagram {
-    margin:0;
-    padding:0;
-    overflow:hidden;
+.myig_gallery {
+    display: block;
+    overflow: hidden;
+    *overflow: visible;
+    text-align: center;
+    margin: 0;
 }
 
-#instagram li {
-    list-style:none;
-    float:left;
-    margin:0 20px 20px 0;
+.myig_gallery .user_gallery {
+    display: inline;
+    margin: 0;
+}
+.myig_gallery .user_gallery img {
+    width: 28%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+.myig_gallery .load_more {
+    display: block;
+    clear: both;
+    text-align: center;
+    margin: 30px;
 }
 
 /********************
@@ -133,7 +170,29 @@ section{
     padding: 5%;
     margin-right:  3%;
 }
+.titulo-back p{
+    background-color: var(--cor);
+    color: #fff;
+    width: 35px;
+    float: left;
 
+}
+.titulo-back p{
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+}
+.titulo-plano{
+    padding-left: 50px;
+}
+.titulo-plano h1{
+    font-size: 1.3em;
+    margin: auto 0;
+}
+.titulo-plano h2{
+    font-size: 1.1em;
+    margin: auto 0;
+}
 /********************
     CONTATO 
 ********************/
@@ -221,15 +280,22 @@ footer .copyright a:hover{
         margin: 10%;
         padding: 10%;
     }
+    .myig_gallery .user_gallery img {
+        width: 70%;
+    }
 }
-@media screen and (min-width: 769px) and (max-width: 988px) {
+@media screen and (min-width: 769px) and (max-width: 949px) {
     .plano{
         margin: 5%;
     }
+      .myig_gallery .user_gallery img {
+        width: 45%;
+    }
 }
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 950px) {
 
     .plano{
         max-width: 30%;
     }
+  
 }

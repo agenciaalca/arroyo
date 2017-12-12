@@ -3,7 +3,7 @@
 
 
 
-<header id="sli-principal">
+<section class="sli-principal">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -29,10 +29,11 @@
             </div>
         </div>
     </div>
-</header>
+</section>
 
-<div class="container">
-    <section id="sobre" class="sobre">
+
+<section id="sobre" class="sobre">
+    <div class="container">
         <div class="row">
             <div class="col-md-6 ">
                 <div class="titulo">
@@ -56,8 +57,9 @@
                 <img class="img-responsive" src="http://lorempixel.com/606/370/sports/1/">
             </div>
         </div>
-    </section>
-</div>
+    </div>
+</section>
+
 
 <section id="banner" class="banner">
     <div id="banners" class="carousel slide" data-ride="carousel">
@@ -95,8 +97,9 @@
     </div>
 </section>
 
-<div class="container">
-    <section id="servicos" class="servicos">
+
+<section id="servicos" class="servicos">
+    <div class="container">
         <div class="titulo">
             <div class="titulo-img">
                 <img src="img/icon_ver.png">
@@ -106,13 +109,12 @@
                 <h1>GALERIA DE FOTOS</h1>
             </div>
         </div>
-       
-
         <!-- incluindo carousel do instagram -->
         <div class="demo"></div>
-
-    </section>
-    <section id="planos" class="planos">
+    </div>
+</section>
+<section id="planos" class="planos">
+    <div class="container">
         <div class="titulo">
             <div class="titulo-img">
                 <img src="img/icon_ver.png">
@@ -131,10 +133,10 @@
         <div class="row">
             <div class="plano col-md-4">
                 <div class="titulo">
-                    <div class="titulo-img">
-                        <i class="fa fa-heart fa-3x"></i>
+                    <div class="titulo-back">
+                        <p>L</p>
                     </div>
-                    <div class="titulos">
+                    <div class="titulo-plano">
                         <h1>LIGHT</h1>
                         <h2>R$ 64,00 por semana</h2>
                     </div>
@@ -150,10 +152,10 @@
             </div>
             <div class="plano col-md-4">
                 <div class="titulo">
-                    <div class="titulo-img">
-                        <i class="fa fa-heart fa-3x"></i>
+                    <div class="titulo-back">
+                        <p>S</p>
                     </div>
-                    <div class="titulos">
+                    <div class="titulo-plano">
                         <h1>SAMRT</h1>
                         <h2>R$ 64,00 por semana</h2>
                     </div>
@@ -169,11 +171,10 @@
             </div>
             <div class="plano col-md-4">
                 <div class="titulo">
-                    <div class="titulo-img">
-                        <i class="fa fa-heart fa-3x"></i>
+                    <div class="titulo-back">
+                        <p>G</p>
                     </div>
-                    <div class="titulos">
-
+                    <div class="titulo-plano">
                         <h1>GOLDEN</h1>
                         <h2>R$ 64,00 por semana</h2>
                     </div>
@@ -185,11 +186,12 @@
                     </p>
                 </div>
                 <a href="#" class="btn btn-custom btn-block">SAIBA MAIS</a> 
-
             </div>
         </div>
-    </section>
-    <section id="contato" class="contato">
+</section>
+
+<section id="contato" class="contato">
+    <div class="container">
         <div class="titulo">
             <div class="titulo-img">
                 <img src="img/icon_ver.png">
@@ -259,8 +261,8 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
 
-    </section>
-</div>
 
 <?php include 'footer.php'; ?>
