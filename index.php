@@ -14,7 +14,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="img/slide-creche.png" alt="crech-daycare">
+                <img src="img/slide-creche.jpg" alt="crech-daycare">
                 <div class="carousel-caption">
                     <h1>CRECHE DAYCARE</h1>
                     <p>O serviço de Daycare dá ao seu melhor amigo um dia de diversão com muito conforto e
@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="item">
-                <img src="img/slide-baia.png" alt="hotel sem gaiolas ou baias">
+                <img src="img/slide-baia.jpg" alt="hotel sem gaiolas ou baias">
                 <div class="carousel-caption">
                     <h1>HOTEL SEM GAIOLAS OU BAIAS</h1>
                     <p>Enquanto o dono viaja, termina a reforma da casa, ou tem qualquer outro motivo que o
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="item">
-                <img src="img/slide-natacao.png" alt="natação">
+                <img src="img/slide-natacao.jpg" alt="natação">
                 <div class="carousel-caption">
                     <h1>NATAÇÃO</h1>
                     <p>Em uma big piscina de 35m monitores e veterinários desenvolvem atividades recreativas, de
@@ -56,13 +56,15 @@
                     </div>
                     <div class="titulos">
                         <h2>SOBRE</h2>
-                        <h1>A ARROYO</h1>
+                        <h1>A ARROYO PETS</h1>
                     </div>
                 </div>
                 <div class="descricao">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <p>Nós sabemos que a rotina agitada muitas vezes impede vocês de dedicar o tempo que gostariam aos seus cães, sendo assim, decidimos agitar a nossa rotina em benefício deles.</p>
+
+                    <p>Nossos melhores amigos precisam se movimentar para atingir um nível de energia estável, saudável, por isso nosso objetivo é levar qualidade de vida ao seu cão através de estímulos físicos e mentais.</p>
+
+                    <p>A paixão pelos pets é o combustível que move a Arroyo Pets. Seu cão merece essa experiência!</p>
                     </p>
                     <a href="#" class="btn btn-custom">SAIBA MAIS</a>
                 </div>
@@ -87,24 +89,29 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="img/Banner-1.png" alt="...">
+                <img src="img/slide-training.jpg" alt="training básico">
                 <div class="carousel-caption">
-                    <h1>TITULO</h1>
-                    <p>DESCRIÇÃO DO SLIDER</p>
+                    <h1>TRAINING BÁSICO</h1>
+                    <p>Despertando nos cães o desejo de aprender, o método de adestramento inteligente é 
+                    fundamentado em estímulos positivos e recompensas.</p>
                 </div>
             </div>
             <div class="item">
-                <img src="img/Banner-2.png" alt="...">
+                <img src="img/slide-taxidog.jpg" alt="taxidog">
                 <div class="carousel-caption">
-                    <h1>TITULO</h1>
-                    <p>DESCRIÇÃO DO SLIDER</p>
+                    <h1>TAXIDOG</h1>
+                    <p>Levamos e buscamos seu amigo de quatro patas na ida e volta para casa com toda segurança e 
+                    o conforto de um veículo com ar condicionado e todo preparado para o transporte deles.</p>
                 </div>
             </div>
             <div class="item">
-                <img src="img/Banner-2.png" alt="...">
+                <img src="img/slide-monitoramento.jpg" alt="monitoramento online">
                 <div class="carousel-caption">
-                    <h1>TITULO</h1>
-                    <p>DESCRIÇÃO DO SLIDER</p>
+                    <h1>MONITORAMENTO ONLINE</h1>
+                    <p>Os donos de pets hospedados em regime de creche ou hotel contam com o conforto
+                    acompanhar as rotinas online 24h com câmeras que mostram toda a área externa e até o
+                    ambiente reservado para o descanso onde o piso é antiderrapante e a cobertura com
+                    tratamento antirruído.</p>
                 </div>
             </div>
         </div>
