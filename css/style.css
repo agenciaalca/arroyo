@@ -25,6 +25,9 @@
 .container{
     max-width: 950px;
 }
+.no-padding{
+    padding: 0 0 20px 0;
+}
 
 /********************
     NAVBAR 
@@ -40,9 +43,14 @@
     z-index: 5;
     transition: all .35s;
     border: none;
+
+    height: 60px;
 }
 .navbar-default .navbar-nav > li > a{
     color: #fff;
+    padding-top:20px;
+    height: 60px;
+
 }
 
 .navbar-default .navbar-nav .active> a,
@@ -53,7 +61,9 @@
     color: #eee;
     background-color: var(--background);
 }
-
+.navbar-brand{
+    padding-top: 5px;
+}
 /********************
     SLIDER-PRINCIPAL 
 ********************/
@@ -116,7 +126,7 @@
 #servicos,
 #planos{
     background-image: url('../img/background.png');
-         padding: 50px 0; 
+    padding: 50px 0; 
 }
 /********************
     SOBRE 
@@ -205,6 +215,15 @@
     border-radius: 0px;
 
 }
+.redes-sociais{
+    margin:0 auto;
+    padding: 10px 10px 0 0;
+    overflow: hidden;
+    position:relative;
+}
+.redes-sociais a{
+    padding-right: 15px;
+}
 
 .form-control{
     background-color: #d5d5d5;
@@ -276,6 +295,12 @@ footer .copyright a:hover{
     font-weight: 700;
 }
 @media only screen and (max-width: 768px) {
+    .carousel-caption{
+        top: 20%;
+    }
+    .carousel-caption h1{
+        font-size: 1.4em;
+    }
     .plano{
         margin: 10%;
         padding: 10%;
@@ -285,10 +310,14 @@ footer .copyright a:hover{
     }
 }
 @media screen and (min-width: 769px) and (max-width: 949px) {
+    .carousel-caption{
+        top: 30%;
+    }
+
     .plano{
         margin: 5%;
     }
-      .myig_gallery .user_gallery img {
+    .myig_gallery .user_gallery img {
         width: 45%;
     }
 }
@@ -297,5 +326,5 @@ footer .copyright a:hover{
     .plano{
         max-width: 30%;
     }
-  
+
 }
