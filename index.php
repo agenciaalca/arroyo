@@ -77,7 +77,7 @@
 
                     <p>A paixão pelos pets é o combustível que move a Arroyo Pets. Seu cão merece essa experiência!</p>
                     </p>
-                    <a href="#" class="btn btn-custom">SAIBA MAIS</a>
+                    <a href="sobre.php" class="btn btn-custom">SAIBA MAIS</a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -205,7 +205,7 @@
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
                 </div>
-                <a href="#" class="btn btn-custom btn-block">SAIBA MAIS</a> 
+                <a href="planos.php" class="btn btn-custom btn-block">SAIBA MAIS</a> 
 
             </div>
             <div class="plano col-md-4">
@@ -224,7 +224,7 @@
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
                 </div>
-                <a href="#" class="btn btn-custom btn-block">SAIBA MAIS</a> 
+                <a href="planos.php" class="btn btn-custom btn-block">SAIBA MAIS</a> 
 
             </div>
             <div class="plano col-md-4">
@@ -243,7 +243,7 @@
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
                 </div>
-                <a href="#" class="btn btn-custom btn-block">SAIBA MAIS</a> 
+                <a href="planos.php" class="btn btn-custom btn-block">SAIBA MAIS</a> 
             </div>
         </div>
 </section>

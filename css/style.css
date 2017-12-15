@@ -267,6 +267,32 @@ input {
 }
 
 /********************
+    PÁGINA INTERNA SOBRE 
+********************/
+.page-header{
+    background-image: url("../img/slide-baia.jpg");
+    height: 500px;
+    margin: 0 0 30px 0;
+}
+.imagem-sobre{
+    float: right;
+    max-width: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.conteudo{
+    margin: 30px 0;
+}
+/********************
+    PÁGINA INTERNA planos 
+********************/
+.conteudo .planos{
+    margin: 30px 0;
+}
+.conteudo .plano{
+    margin-bottom: 30px;
+}
+/********************
     FOOTER 
 ********************/
 footer{
