@@ -14,17 +14,31 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="img/Banner-1.png" alt="...">
+                <img src="img/slide-creche.png" alt="crech-daycare">
                 <div class="carousel-caption">
-                    <h1>TITULO</h1>
-                    <p>DESCRIÇÃO DO SLIDER</p>
+                    <h1>CRECHE DAYCARE</h1>
+                    <p>O serviço de Daycare dá ao seu melhor amigo um dia de diversão com muito conforto e
+                    equilíbrio. As atividades são programadas considerando o nível de energia e o porte físico dos
+                    cães que recebem cuidados específicos na alimentação, atividade física e descanso.</p>
                 </div>
             </div>
             <div class="item">
-                <img src="img/Banner-2.png" alt="...">
+                <img src="img/slide-baia.png" alt="hotel sem gaiolas ou baias">
                 <div class="carousel-caption">
-                    <h1>TITULO</h1>
-                    <p>DESCRIÇÃO DO SLIDER</p>
+                    <h1>HOTEL SEM GAIOLAS OU BAIAS</h1>
+                    <p>Enquanto o dono viaja, termina a reforma da casa, ou tem qualquer outro motivo que o
+                    impeça de ficar com seu pet e não quer que ele fique muito tempo em espaços pequenos, o
+                    hotel Arroyo recebe os clientes de quatro patas em um ambiente 100% livre, sem gaiolas ou
+                    baias, dando carinho e atenção até que ele possa voltar para casa.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/slide-natacao.png" alt="natação">
+                <div class="carousel-caption">
+                    <h1>NATAÇÃO</h1>
+                    <p>Em uma big piscina de 35m monitores e veterinários desenvolvem atividades recreativas, de
+                    fisioterapia, para perda dos quilinhos extras ou só para se refrescar mesmo num dia de muito
+                    calor e baixa humidade.</p>
                 </div>
             </div>
         </div>
