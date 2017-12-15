@@ -1,5 +1,6 @@
-﻿<?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <?php include 'mail.php'; ?>
+<?php include 'functions.php'; ?>
 
 <!--testando commit git agencia alca-->
 
@@ -150,7 +151,24 @@
             </div>
         </div>
         <!-- incluindo carousel do instagram -->
-        <div class="demo"></div>
+        <!--<div class="demo"></div>-->
+        <?php
+        $insta = instagram();
+        if ($insta) {
+            $html = '';
+            $count = 0;
+            foreach ($insta as $results):
+                $count++;
+                $html .= '<a class="instagram-img"  href="' . $results->link . '" title="" target="_blank">';
+                $html .= '<img width="290" height="290" src="' . $results->images->low_resolution->url . '" class="img-responsive" alt="">';
+                $html .= '</a>';
+                if ($count >= 8) {
+                    break;
+                }
+            endforeach;
+            echo $html;
+        }
+        ?>
     </div>
 </section>
 <section id="planos" class="planos">
