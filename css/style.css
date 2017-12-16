@@ -26,7 +26,7 @@
     max-width: 950px;
 }
 .no-padding{
-    padding: 0 0 20px 0;
+    padding: 0 0 20px 15px;
 }
 
 /********************
@@ -43,7 +43,6 @@
     z-index: 5;
     transition: all .35s;
     border: none;
-
     height: 60px;
 }
 .navbar-default .navbar-nav > li > a{
@@ -227,7 +226,7 @@
 
 .form-control{
     background-color: #d5d5d5;
-    color: var(--cor)important;
+    color: var(--cor)!important;
     border-radius: 0px;
     border: none;
 }
@@ -333,6 +332,16 @@ footer .copyright a:hover{
     }
     .myig_gallery .user_gallery img {
         width: 70%;
+    }
+    .navbar-brand{
+        padding: 0;
+    }
+    .navbar-default .navbar-collapse{
+        background: var(--cor)!important;
+    }
+    .navbar-default .navbar-collapse:hover,
+    .navbar-default .navbar-collapse:focus{
+        background: var(--background)!important;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 949px) {

@@ -33,11 +33,11 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#home">HOME</a></li>
-                            <li><a href="#sobre">SOBRE</a></li>
-                            <li><a href="#servicos">SERVIÇOS</a></li>
-                            <li><a href="#planos">PLANOS</a></li>
-                            <li><a href="#contato">CONTATO</a></li>
+                            <li><a href="/#home">HOME</a></li>
+                            <li><a href="/#sobre">SOBRE</a></li>
+                            <li><a href="/#servicos">SERVIÇOS</a></li>
+                            <li><a href="/#planos">PLANOS</a></li>
+                            <li><a href="/#contato">CONTATO</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container -->

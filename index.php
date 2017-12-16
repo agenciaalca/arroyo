@@ -307,19 +307,23 @@
 
                 <div class = "col-md-4 col-xs-12">
                     <div class = "informacoes-contato">
-                        <div class = "no-padding col-xs-4">
-                            <img class="img-responsive" src="img/icon-local.png">
+                        <div class="row">
+                            <div class = "no-padding col-xs-4 col-sm-2">
+                                <img class="img-responsive" src="img/icon-local.png">
+                            </div>
+                            <div class="no-padding col-xs-8 col-sm-10">
+                                <p>Av. C_264, 177 - Setor Nova Suiça.</p>
+                                <p>Goiânia - GO. 74280-220</p>
+                            </div>
                         </div>
-                        <div class="no-padding col-xs-8">
-                            <p>Av. C_264, 177 - Setor Nova Suiça.</p>
-                            <p>Goiânia - GO. 74280-220</p>
-                        </div>
-                        <div class="no-padding col-xs-4">
-                            <img class="img-responsive" src="img/icon-telefone.png">
-                        </div>
-                        <div class = "no-padding col-xs-8">
-                            <p>(62) 4004-2017</p>
-                            <p>(62) 98223-9339</p>
+                        <div class="row">
+                            <div class="no-padding col-xs-4 col-sm-2">
+                                <img class="img-responsive" src="img/icon-telefone.png">
+                            </div>
+                            <div class = "no-padding col-xs-8 col-sm-10">
+                                <p>(62) 4004-2017</p>
+                                <p>(62) 98223-9339</p>
+                            </div>
                         </div>
                         <div class="redes-sociais col-xs-12">
                             <a href="#"><img src="img/FB.png"></a>
