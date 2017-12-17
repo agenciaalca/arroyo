@@ -16,7 +16,8 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="img-responsive" src="img/slide-creche.jpg" alt="crech-daycare">
+                <img class="img-responsive hidden-xs" src="img/slide-creche.jpg" alt="crech-daycare">
+                <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-creche.jpg')"></span>
                 <div class="carousel-caption">
                     <h1>CRECHE DAYCARE</h1>
                     <p>O serviço de Daycare dá ao seu melhor amigo um dia de diversão com muito conforto e
@@ -25,7 +26,8 @@
                 </div>
             </div>
             <div class="item">
-                <img class="img-responsive" src="img/slide-baia.jpg" alt="hotel sem gaiolas ou baias">
+                <img class="img-responsive  hidden-xs" src="img/slide-baia.jpg" alt="hotel sem gaiolas ou baias">
+                <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-baia.jpg')"></span>
                 <div class="carousel-caption">
                     <h1>HOTEL SEM GAIOLAS OU BAIAS</h1>
                     <p>Enquanto o dono viaja, termina a reforma da casa, ou tem qualquer outro motivo que o
@@ -35,7 +37,8 @@
                 </div>
             </div>
             <div class="item">
-                <img class="img-responsive" src="img/slide-natacao.jpg" alt="natação">
+                <img class="img-responsive hidden-xs" src="img/slide-natacao.jpg" alt="natação">
+                <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-natacao.jpg')"></span>
                 <div class="carousel-caption">
                     <h1>NATAÇÃO</h1>
                     <p>Em uma big piscina de 35m monitores e veterinários desenvolvem atividades recreativas, de
@@ -55,7 +58,6 @@
         </div>
     </div>
 </section>
-
 
 <section id="sobre" class="sobre">
     <div class="container">
@@ -86,7 +88,6 @@
         </div>
     </div>
 </section>
-
 
 <section id="banner" class="banner">
     <div id="banners" class="carousel slide" data-ride="carousel">
@@ -151,8 +152,8 @@
             </div>
         </div>
         <!-- incluindo carousel do instagram -->
-        <!--<div class="demo"></div>-->
-        <?php
+        <div class="demo"></div>
+       <?php  /**
         $insta = instagram();
         if ($insta) {
             $html = '';
@@ -167,7 +168,7 @@
                 }
             endforeach;
             echo $html;
-        }
+        }*/
         ?>
     </div>
 </section>
@@ -308,19 +309,19 @@
                 <div class = "col-md-4 col-xs-12">
                     <div class = "informacoes-contato">
                         <div class="row">
-                            <div class = "no-padding col-xs-4 col-sm-2">
+                            <div class = "dados-contato col-xs-4 col-sm-2">
                                 <img class="img-responsive" src="img/icon-local.png">
                             </div>
-                            <div class="no-padding col-xs-8 col-sm-10">
+                            <div class="dados-contato col-xs-8 col-sm-10">
                                 <p>Av. C_264, 177 - Setor Nova Suiça.</p>
                                 <p>Goiânia - GO. 74280-220</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="no-padding col-xs-4 col-sm-2">
+                            <div class="dados-contato col-xs-4 col-sm-2">
                                 <img class="img-responsive" src="img/icon-telefone.png">
                             </div>
-                            <div class = "no-padding col-xs-8 col-sm-10">
+                            <div class = "dados-contato col-xs-8 col-sm-10">
                                 <p>(62) 4004-2017</p>
                                 <p>(62) 98223-9339</p>
                             </div>
