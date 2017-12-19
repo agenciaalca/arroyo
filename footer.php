@@ -10,6 +10,10 @@
 <!-- jQuery my instagram gallery -->
 <script src="js/my-instagram-gallery.js"></script>
 <script src="js/instagramapi.js"></script>
+<script src="js/googlemaps.js"></script>
 
+ <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATxZ-Dmg2slQlmM5UIOUreJXXgRTbfKao&callback=initMap">
+</script>
 </body>
 </html>

@@ -94,6 +94,7 @@
 .titulos h1{
     font-size: 1.3em;
 }
+
 .mapa,
 .formulario-contato,
 .descricao{
@@ -206,7 +207,12 @@
     font-size: 1.1em;
     margin: auto 0;
 }
-
+/********************
+    MAPA 
+********************/
+#map{
+    height: 400px;
+}
 /********************
     CONTATO 
 ********************/

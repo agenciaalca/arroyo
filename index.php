@@ -16,8 +16,8 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <!--<img class="img-responsive hidden-xs" src="img/slide-creche.jpg" alt="crech-daycare">-->
-                <span class="" style="background-image: url('img/slide-creche.jpg')"></span>
+                <img class="img-responsive hidden-xs" src="img/slide-creche.jpg" alt="crech-daycare">
+                <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-creche.jpg')"></span>
                 <div class="carousel-caption">
                     <h1>CRECHE DAYCARE</h1>
                     <p>O serviço de Daycare dá ao seu melhor amigo um dia de diversão com muito conforto e
@@ -25,27 +25,27 @@
                         cães que recebem cuidados específicos na alimentação, atividade física e descanso.</p>
                 </div>
             </div>
-            <!--            <div class="item">
-                            <img class="img-responsive  hidden-xs" src="img/slide-baia.jpg" alt="hotel sem gaiolas ou baias">
-                            <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-baia.jpg')"></span>
-                            <div class="carousel-caption">
-                                <h1>HOTEL SEM GAIOLAS OU BAIAS</h1>
-                                <p>Enquanto o dono viaja, termina a reforma da casa, ou tem qualquer outro motivo que o
-                                    impeça de ficar com seu pet e não quer que ele fique muito tempo em espaços pequenos, o
-                                    hotel Arroyo recebe os clientes de quatro patas em um ambiente 100% livre, sem gaiolas ou
-                                    baias, dando carinho e atenção até que ele possa voltar para casa.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive hidden-xs" src="img/slide-natacao.jpg" alt="natação">
-                            <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-natacao.jpg')"></span>
-                            <div class="carousel-caption">
-                                <h1>NATAÇÃO</h1>
-                                <p>Em uma big piscina de 35m monitores e veterinários desenvolvem atividades recreativas, de
-                                    fisioterapia, para perda dos quilinhos extras ou só para se refrescar mesmo num dia de muito
-                                    calor e baixa humidade.</p>
-                            </div>
-                        </div>-->
+            <div class="item">
+                <img class="img-responsive hidden-xs" src="img/slide-baia.jpg" alt="hotel sem gaiolas ou baias">
+                <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-baia.jpg')"></span>
+                <div class="carousel-caption">
+                    <h1>HOTEL SEM GAIOLAS OU BAIAS</h1>
+                    <p>Enquanto o dono viaja, termina a reforma da casa, ou tem qualquer outro motivo que o
+                        impeça de ficar com seu pet e não quer que ele fique muito tempo em espaços pequenos, o
+                        hotel Arroyo recebe os clientes de quatro patas em um ambiente 100% livre, sem gaiolas ou
+                        baias, dando carinho e atenção até que ele possa voltar para casa.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="img-responsive hidden-xs" src="img/slide-natacao.jpg" alt="natação">
+                <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-natacao.jpg')"></span>
+                <div class="carousel-caption">
+                    <h1>NATAÇÃO</h1>
+                    <p>Em uma big piscina de 35m monitores e veterinários desenvolvem atividades recreativas, de
+                        fisioterapia, para perda dos quilinhos extras ou só para se refrescar mesmo num dia de muito
+                        calor e baixa humidade.</p>
+                </div>
+            </div>
             <!-- Controls -->
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -79,9 +79,10 @@
                     <p>Nossos melhores amigos precisam se movimentar para atingir um nível de energia estável, saudável, por isso nosso objetivo é levar qualidade de vida ao seu cão através de estímulos físicos e mentais.</p>
 
                     <p>A paixão pelos pets é o combustível que move a Arroyo Pets. Seu cão merece essa experiência!</p>
-                    <span class="text-center">
+                    </p>
+                    <div class="text-center">
                         <a href="http://agenciaalca.com/projetos/arroyo/sobre.php" class="btn btn-custom">SAIBA MAIS</a>
-                    </span>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
@@ -305,9 +306,9 @@
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
         </div> -->
-        <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.1715451080404!2d-49.2720662!3d-16.7182903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef0d852052f0f%3A0xb54399790432f7ab!2sArroyo+Pets!5e0!3m2!1spt-BR!2sbr!4v1512645514682" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
+
+        <div id="map"></div>
+
         <div class="formulario-contato">
             <div class="row">
                 <div class="col-md-8 col-xs-12">

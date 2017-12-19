@@ -46,7 +46,7 @@ $.fn.myig = function(g, h, j) {
 //                d += '	</a>';
                 d += '</div>'
             });
-            if (c.pagination.next_max_id != null && c.pagination.next_max_id != undefined) {
+            if (c.pagination.next_max_id !== null && c.pagination.next_max_id !== undefined) {
                 d += '<div class="load_more"><span class="btn btn-custom" data-next="' + c.pagination.next_max_id + '">Veja Mais</span></div>'
             }
             $(e + ' .myig_gallery').append(d);
