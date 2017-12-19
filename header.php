@@ -14,6 +14,8 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
 
+        <!-- Importação do chat wpp do site -->
+        <script type="text/javascript" src="https://www.whatscompany.com.br/sistema/whats-chat/widget-init.php?end_code=UAC367DJHE5TS4VB9FRIYG1XO0MLKWPQ2Z8N20171218115236"></script>
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <header>
@@ -27,7 +29,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img src="img/logo.png" width="220px"></a>
+                        <a class="navbar-brand" href="http://agenciaalca.com/projetos/arroyo"><img src="img/logo.png" width="150px"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->

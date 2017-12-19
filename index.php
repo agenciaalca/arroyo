@@ -16,8 +16,8 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="img-responsive hidden-xs" src="img/slide-creche.jpg" alt="crech-daycare">
-                <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-creche.jpg')"></span>
+                <!--<img class="img-responsive hidden-xs" src="img/slide-creche.jpg" alt="crech-daycare">-->
+                <span class="" style="background-image: url('img/slide-creche.jpg')"></span>
                 <div class="carousel-caption">
                     <h1>CRECHE DAYCARE</h1>
                     <p>O serviço de Daycare dá ao seu melhor amigo um dia de diversão com muito conforto e
@@ -25,27 +25,27 @@
                         cães que recebem cuidados específicos na alimentação, atividade física e descanso.</p>
                 </div>
             </div>
-            <div class="item">
-                <img class="img-responsive  hidden-xs" src="img/slide-baia.jpg" alt="hotel sem gaiolas ou baias">
-                <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-baia.jpg')"></span>
-                <div class="carousel-caption">
-                    <h1>HOTEL SEM GAIOLAS OU BAIAS</h1>
-                    <p>Enquanto o dono viaja, termina a reforma da casa, ou tem qualquer outro motivo que o
-                        impeça de ficar com seu pet e não quer que ele fique muito tempo em espaços pequenos, o
-                        hotel Arroyo recebe os clientes de quatro patas em um ambiente 100% livre, sem gaiolas ou
-                        baias, dando carinho e atenção até que ele possa voltar para casa.</p>
-                </div>
-            </div>
-            <div class="item">
-                <img class="img-responsive hidden-xs" src="img/slide-natacao.jpg" alt="natação">
-                <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-natacao.jpg')"></span>
-                <div class="carousel-caption">
-                    <h1>NATAÇÃO</h1>
-                    <p>Em uma big piscina de 35m monitores e veterinários desenvolvem atividades recreativas, de
-                        fisioterapia, para perda dos quilinhos extras ou só para se refrescar mesmo num dia de muito
-                        calor e baixa humidade.</p>
-                </div>
-            </div>
+            <!--            <div class="item">
+                            <img class="img-responsive  hidden-xs" src="img/slide-baia.jpg" alt="hotel sem gaiolas ou baias">
+                            <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-baia.jpg')"></span>
+                            <div class="carousel-caption">
+                                <h1>HOTEL SEM GAIOLAS OU BAIAS</h1>
+                                <p>Enquanto o dono viaja, termina a reforma da casa, ou tem qualquer outro motivo que o
+                                    impeça de ficar com seu pet e não quer que ele fique muito tempo em espaços pequenos, o
+                                    hotel Arroyo recebe os clientes de quatro patas em um ambiente 100% livre, sem gaiolas ou
+                                    baias, dando carinho e atenção até que ele possa voltar para casa.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive hidden-xs" src="img/slide-natacao.jpg" alt="natação">
+                            <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-natacao.jpg')"></span>
+                            <div class="carousel-caption">
+                                <h1>NATAÇÃO</h1>
+                                <p>Em uma big piscina de 35m monitores e veterinários desenvolvem atividades recreativas, de
+                                    fisioterapia, para perda dos quilinhos extras ou só para se refrescar mesmo num dia de muito
+                                    calor e baixa humidade.</p>
+                            </div>
+                        </div>-->
             <!-- Controls -->
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -59,13 +59,14 @@
     </div>
 </section>
 
+
 <section id="sobre" class="sobre">
     <div class="container">
         <div class="row">
             <div class="col-md-6 ">
                 <div class="titulo">
                     <div class="titulo-img">
-                        <img src="img/icon_ver.png">
+                        <img src="img/logo-icone.png" width="55px">
                     </div>
                     <div class="titulos">
                         <h2>SOBRE</h2>
@@ -78,8 +79,9 @@
                     <p>Nossos melhores amigos precisam se movimentar para atingir um nível de energia estável, saudável, por isso nosso objetivo é levar qualidade de vida ao seu cão através de estímulos físicos e mentais.</p>
 
                     <p>A paixão pelos pets é o combustível que move a Arroyo Pets. Seu cão merece essa experiência!</p>
-                    </p>
-                    <a href="sobre.php" class="btn btn-custom">SAIBA MAIS</a>
+                    <span class="text-center">
+                        <a href="http://agenciaalca.com/projetos/arroyo/sobre.php" class="btn btn-custom">SAIBA MAIS</a>
+                    </span>
                 </div>
             </div>
             <div class="col-md-6">
@@ -88,6 +90,8 @@
         </div>
     </div>
 </section>
+
+
 
 <section id="banner" class="banner">
     <div id="banners" class="carousel slide" data-ride="carousel">
@@ -144,7 +148,7 @@
     <div class="container">
         <div class="titulo">
             <div class="titulo-img">
-                <img src="img/icon_ver.png">
+                <img src="img/logo-icone.png" width="55px">
             </div>
             <div class="titulos">
                 <h2>DE OLHO NOS PETS</h2>
@@ -153,30 +157,65 @@
         </div>
         <!-- incluindo carousel do instagram -->
         <div class="demo"></div>
-       <?php  /**
-        $insta = instagram();
-        if ($insta) {
-            $html = '';
-            $count = 0;
-            foreach ($insta as $results):
-                $count++;
-                $html .= '<a class="instagram-img"  href="' . $results->link . '" title="" target="_blank">';
-                $html .= '<img width="290" height="290" src="' . $results->images->low_resolution->url . '" class="img-responsive" alt="">';
-                $html .= '</a>';
-                if ($count >= 8) {
-                    break;
-                }
-            endforeach;
-            echo $html;
-        }*/
+        <?php /**
+          $insta = instagram();
+          if ($insta) {
+          $html = '';
+          $count = 0;
+          foreach ($insta as $results):
+          $count++;
+          $html .= '<a class="instagram-img"  href="' . $results->link . '" title="" target="_blank">';
+          $html .= '<img width="290" height="290" src="' . $results->images->low_resolution->url . '" class="img-responsive" alt="">';
+          $html .= '</a>';
+          if ($count >= 8) {
+          break;
+          }
+          endforeach;
+          echo $html;
+          } */
         ?>
     </div>
 </section>
-<section id="planos" class="planos">
+
+<section id="responsabilidade-social" class="responsabilidade-social">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="titulo">
+                    <div class="titulo-img">
+                        <img src="img/logo-icone.png" width="55px">
+                    </div>
+                    <div class="titulos">
+                        <h2>RESPONSABILIDADE</h2>
+                        <h1>SOCIAL</h1>
+                    </div>
+                </div>
+                <div class="descricao">
+                    <p>Movidos pelo sentimento de mudança e em respeito aos animais, Alexandre, Rafael e Victor,
+                        sócios proprietários da ARROYO PETs optaram na conceituação da empresa, por atuar de
+                        forma concreta na proteção e defesa dos cães abandonados ou vítimas de maus tratos.</p>
+
+                    <p>A Arroyo mantém em sua estrutura um número pré-determinado de vagas para lar temporário
+                        apoiando e contribuindo com aqueles que resgatam e fazem a adoção responsável desses cães
+                        que na maioria, por não ter raça definida sofrem a dor do abandono.</p>
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="img/responsabilidade-home.jpg" width="100%">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- <section id="planos" class="planos">
     <div class="container">
         <div class="titulo">
             <div class="titulo-img">
-                <img src="img/icon_ver.png">
+                <img src="img/logo-icone.png" width="55px">
             </div>
             <div class="titulos">
                 <h2>CONHEÇA</h2>
@@ -248,24 +287,24 @@
             </div>
         </div>
 </section>
-
+-->
 <section id="contato" class="contato">
     <div class="container">
         <div class="titulo">
             <div class="titulo-img">
-                <img src="img/icon_ver.png">
+                <img src="img/logo-icone.png" width="55px">
             </div>
             <div class="titulos">
                 <h2>FALE CONOSCO</h2>
                 <h1>CONTATO</h1>
             </div>
         </div>
-        <div class="descricao">
+        <!-- <div class="descricao">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
-        </div>
+        </div> -->
         <div class="mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.1715451080404!2d-49.2720662!3d-16.7182903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef0d852052f0f%3A0xb54399790432f7ab!2sArroyo+Pets!5e0!3m2!1spt-BR!2sbr!4v1512645514682" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
@@ -309,26 +348,24 @@
                 <div class = "col-md-4 col-xs-12">
                     <div class = "informacoes-contato">
                         <div class="row">
-                            <div class = "dados-contato col-xs-4 col-sm-2">
+                            <div class = "no-padding col-xs-4 col-sm-2">
                                 <img class="img-responsive" src="img/icon-local.png">
                             </div>
-                            <div class="dados-contato col-xs-8 col-sm-10">
-                                <p>Av. C_264, 177 - Setor Nova Suiça.</p>
-                                <p>Goiânia - GO. 74280-220</p>
+                            <div class="no-padding col-xs-8 col-sm-10">
+                                <p>Av. C-264, 177, Setor Nova Suiça, Goiânia - GO. 74280-220</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="dados-contato col-xs-4 col-sm-2">
+                            <div class="no-padding col-xs-4 col-sm-2">
                                 <img class="img-responsive" src="img/icon-telefone.png">
                             </div>
-                            <div class = "dados-contato col-xs-8 col-sm-10">
-                                <p>(62) 4004-2017</p>
-                                <p>(62) 98223-9339</p>
+                            <div class = "no-padding col-xs-8 col-sm-10">
+                                <p>(62) 4004-2017 <br>(62) 98223-9339</p>
                             </div>
                         </div>
                         <div class="redes-sociais col-xs-12">
-                            <a href="#"><img src="img/FB.png"></a>
-                            <a href="#"><img src="img/ig.png"></a>
+                            <a href="#"><img src="img/fb-icon.png" width="55px"></a>
+                            <a href="#"><img src="img/ig-icon.png" width="55px"></a>
                         </div>
                     </div>
                 </div>
