@@ -4,7 +4,7 @@
 
 <!--testando commit git agencia alca-->
 
-<section class="sli-principal">
+<section class="sli-principal" id="home">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -83,7 +83,7 @@
                     <p>A paixão pelos pets é o combustível que move a Arroyo Pets. Seu cão merece essa experiência!</p>
                     </p>
                     <div class="text-center">
-                        <a href="http://agenciaalca.com/projetos/arroyo/sobre.php" class="btn btn-custom">SAIBA MAIS</a>
+                        <a href="http://arroyopets.com.br/sobre.php" class="btn btn-custom">SAIBA MAIS</a>
                     </div>
                 </div>
             </div>
@@ -163,35 +163,64 @@
         </div>
         <!-- incluindo carousel do instagram -->
         <div class="galeria">
-            <div class="foto col-md-4">
-                <img class="img-responsive" src="img/arroyo2.jpeg">
+            <div class="foto col-md-4 col-sm-6 col-xs-12">
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                    <img class="img-responsive" src="img/galeria1.jpg">
+                </a>
             </div>
-            <div class="foto col-md-4">
-                <img class="img-responsive" src="img/arroyo3.jpeg">
+            <div class="foto col-md-4 col-sm-6 col-xs-12">
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                    <img class="img-responsive" src="img/galeria2.jpg">
+                </a>
             </div>
-            <div class="foto col-md-4">
-                <img class="img-responsive" src="img/arroyo.jpeg">
+            <div class="foto col-md-4 col-sm-6 col-xs-12">
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                    <img class="img-responsive" src="img/galeria3.jpg">
+                </a>
             </div>
-            <div class="foto col-md-4">
-                <img class="img-responsive" src="img/arroyo4.jpeg">
+            <div class="foto col-md-4 col-sm-6 col-xs-12">
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                    <img class="img-responsive" src="img/galeria4.jpg">
+                </a>
             </div>
-            <div class="foto col-md-4">
-                <img class="img-responsive" src="img/arroyo5.jpeg">
+            <div class="foto col-md-4 col-sm-6 col-xs-12">
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                    <img class="img-responsive" src="img/galeria5.jpg">
+                </a>
             </div>
-            <div class="foto col-md-4">
-                <img class="img-responsive" src="img/arroyo6.jpeg">
+            <div class="foto col-md-4 col-sm-6 col-xs-12">
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                    <img class="img-responsive" src="img/galeria6.jpg">
+                </a>
             </div>
-            <div class="foto col-md-4">
-                <img class="img-responsive" src="img/arroyo7.jpeg">
+            <div class="foto col-md-4 col-sm-6 col-xs-12">
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                    <img class="img-responsive" src="img/galeria7.jpg">
+                </a>
             </div>
-            <div class="foto col-md-4">
-                <img class="img-responsive" src="img/arroyo8.jpeg">
+            <div class="foto col-md-4 col-sm-6 col-xs-12">
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                    <img class="img-responsive" src="img/galeria8.jpg">
+                </a>
             </div>
-            <div class="foto col-md-4">
-                <img class="img-responsive" src="img/arroyo9.jpeg">
+            <div class="foto col-md-4 col-sm-6 col-xs-12">
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                    <img class="img-responsive" src="img/galeria9.jpg">
+                </a>
             </div>
-            
         </div>
+
+        <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 

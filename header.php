@@ -37,8 +37,8 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="/#home">HOME</a></li>
                             <li><a href="/#sobre">SOBRE</a></li>
-                            <li><a href="/#servicos">SERVIÇOS</a></li>
-                            <li><a href="/#planos">PLANOS</a></li>
+                            <li><a href="/#servicos">GALERIA</a></li>
+                            <!-- <li><a href="/#planos">PLANOS</a></li> -->
                             <li><a href="/#contato">CONTATO</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->

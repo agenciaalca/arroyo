@@ -2,7 +2,7 @@ var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: 16,
-    center: new google.maps.LatLng(-16.7182785,-49.3421067),
+    center: new google.maps.LatLng(-16.7182903,-49.2720662),
     mapTypeId: 'roadmap'
   });
 
@@ -15,7 +15,7 @@ function initMap() {
 
   var features = [
     {
-      position: new google.maps.LatLng(-16.7182785,-49.3421067),
+      position: new google.maps.LatLng(-16.7182903,-49.2720662),
       type: 'arroyo'
     }
   ];
