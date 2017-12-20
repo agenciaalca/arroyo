@@ -17,7 +17,8 @@
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img class="img-responsive hidden-xs" src="img/slide-creche.jpg" alt="crech-daycare">
-                <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-creche.jpg')"></span>
+                <img class="hidden-sm hidden-md hidden-lg" src="img/slide-creche-mobile.jpg" alt="hotel sem gaiolas ou baias">
+
                 <div class="carousel-caption">
                     <h1>CRECHE DAYCARE</h1>
                     <p>O serviço de Daycare dá ao seu melhor amigo um dia de diversão com muito conforto e
@@ -27,7 +28,7 @@
             </div>
             <div class="item">
                 <img class="img-responsive hidden-xs" src="img/slide-baia.jpg" alt="hotel sem gaiolas ou baias">
-                <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-baia.jpg')"></span>
+                <img class="hidden-sm hidden-md hidden-lg" src="img/slide-baia-mobile.jpg" alt="hotel sem gaiolas ou baias">
                 <div class="carousel-caption">
                     <h1>HOTEL SEM GAIOLAS OU BAIAS</h1>
                     <p>Enquanto o dono viaja, termina a reforma da casa, ou tem qualquer outro motivo que o
@@ -38,7 +39,8 @@
             </div>
             <div class="item">
                 <img class="img-responsive hidden-xs" src="img/slide-natacao.jpg" alt="natação">
-                <span class="hidden-sm hidden-md hidden-lg" style="background-image: url('img/slide-natacao.jpg')"></span>
+                <img class="hidden-sm hidden-md hidden-lg" src="img/slide-natacao-mobile.jpg" alt="hotel sem gaiolas ou baias">
+
                 <div class="carousel-caption">
                     <h1>NATAÇÃO</h1>
                     <p>Em uma big piscina de 35m monitores e veterinários desenvolvem atividades recreativas, de
@@ -106,7 +108,8 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="img-responsive" src="img/slide-training.jpg" alt="training básico">
+                <img class="img-responsive hidden-xs" src="img/slide-training.jpg" alt="training básico">
+                <img class="img-responsive hidden-sm hidden-md hidden-lg" src="img/slide-training-mobile.jpg" alt="training básico">
                 <div class="carousel-caption">
                     <h1>TRAINING BÁSICO</h1>
                     <p>Despertando nos cães o desejo de aprender, o método de adestramento inteligente é 
@@ -114,7 +117,8 @@
                 </div>
             </div>
             <div class="item">
-                <img class="img-responsive" src="img/slide-taxidog.jpg" alt="taxidog">
+                <img class="img-responsive hidden-xs" src="img/slide-taxidog.jpg" alt="taxidog">
+                <img class="img-responsive hidden-sm hidden-md hidden-lg" src="img/slide-taxidog-mobile.jpg" alt="taxidog">
                 <div class="carousel-caption">
                     <h1>TAXIDOG</h1>
                     <p>Levamos e buscamos seu amigo de quatro patas na ida e volta para casa com toda segurança e 
@@ -122,7 +126,8 @@
                 </div>
             </div>
             <div class="item">
-                <img class="img-responsive" src="img/slide-monitoramento.jpg" alt="monitoramento online">
+                <img class="img-responsive hidden-xs" src="img/slide-monitoramento.jpg" alt="monitoramento online">
+                <img class="img-responsive hidden-sm hidden-md hidden-lg" src="img/slide-monitoramento-mobile.jpg" alt="monitoramento online">
                 <div class="carousel-caption">
                     <h1>MONITORAMENTO ONLINE</h1>
                     <p>Os donos de pets hospedados em regime de creche ou hotel contam com o conforto
@@ -157,24 +162,36 @@
             </div>
         </div>
         <!-- incluindo carousel do instagram -->
-        <div class="demo"></div>
-        <?php /**
-          $insta = instagram();
-          if ($insta) {
-          $html = '';
-          $count = 0;
-          foreach ($insta as $results):
-          $count++;
-          $html .= '<a class="instagram-img"  href="' . $results->link . '" title="" target="_blank">';
-          $html .= '<img width="290" height="290" src="' . $results->images->low_resolution->url . '" class="img-responsive" alt="">';
-          $html .= '</a>';
-          if ($count >= 8) {
-          break;
-          }
-          endforeach;
-          echo $html;
-          } */
-        ?>
+        <div class="galeria">
+            <div class="foto col-md-4">
+                <img class="img-responsive" src="img/arroyo2.jpeg">
+            </div>
+            <div class="foto col-md-4">
+                <img class="img-responsive" src="img/arroyo3.jpeg">
+            </div>
+            <div class="foto col-md-4">
+                <img class="img-responsive" src="img/arroyo.jpeg">
+            </div>
+            <div class="foto col-md-4">
+                <img class="img-responsive" src="img/arroyo4.jpeg">
+            </div>
+            <div class="foto col-md-4">
+                <img class="img-responsive" src="img/arroyo5.jpeg">
+            </div>
+            <div class="foto col-md-4">
+                <img class="img-responsive" src="img/arroyo6.jpeg">
+            </div>
+            <div class="foto col-md-4">
+                <img class="img-responsive" src="img/arroyo7.jpeg">
+            </div>
+            <div class="foto col-md-4">
+                <img class="img-responsive" src="img/arroyo8.jpeg">
+            </div>
+            <div class="foto col-md-4">
+                <img class="img-responsive" src="img/arroyo9.jpeg">
+            </div>
+            
+        </div>
     </div>
 </section>
 
@@ -346,23 +363,16 @@
                     </form>
                 </div>
 
-                <div class = "col-md-4 col-xs-12">
+                <div class="col-md-4 col-xs-12">
                     <div class = "informacoes-contato">
-                        <div class="row">
-                            <div class = "no-padding col-xs-4 col-sm-2">
-                                <img class="img-responsive" src="img/icon-local.png">
-                            </div>
-                            <div class="no-padding col-xs-8 col-sm-10">
-                                <p>Av. C-264, 177, Setor Nova Suiça, Goiânia - GO. 74280-220</p>
-                            </div>
+                        <div class="info">
+                            <img class="img-responsive" src="img/icon-local.png" >
+                            <p>Av. C-264, 177, Setor Nova Suiça, Goiânia - GO. 74280-220</p>
                         </div>
-                        <div class="row">
-                            <div class="no-padding col-xs-4 col-sm-2">
-                                <img class="img-responsive" src="img/icon-telefone.png">
-                            </div>
-                            <div class = "no-padding col-xs-8 col-sm-10">
-                                <p>(62) 4004-2017 <br>(62) 98223-9339</p>
-                            </div>
+                        <br>
+                        <div class="info">
+                            <img class="img-responsive" src="img/icon-telefone.png">
+                            <p>(62) 3988-2815 <br>(62) 98223-9339</p>
                         </div>
                         <div class="redes-sociais col-xs-12">
                             <a href="#"><img src="img/fb-icon.png" width="55px"></a>
