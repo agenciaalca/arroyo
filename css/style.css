@@ -93,7 +93,6 @@
 .espaco{
     margin: 25px;
 }
-.icones-desc,
 .titulos{
     display: inline-block;
     margin: 1.5% 0 0 1.5%;
@@ -134,20 +133,7 @@
     background-image: url('../img/background.png');
     padding: 50px 0; 
 }
-.item span,
-.banner span{
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: center;
-    height: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: auto;
-    position: absolute;
-    text-align: center;
-}
+
 /********************
     SOBRE 
 ********************/
@@ -191,28 +177,6 @@
     right: -55px;
 
     z-index:1032;
-}
-.myig_gallery {
-    display: block;
-    overflow: hidden;
-    *overflow: visible;
-    text-align: center;
-    margin: 0;
-}
-.myig_gallery .user_gallery {
-    display: inline;
-    margin: 0;
-}
-.myig_gallery .user_gallery img {
-    width: 28%;
-    margin-right: 3%;
-    margin-bottom: 3%;
-}
-.myig_gallery .load_more {
-    display: block;
-    clear: both;
-    text-align: center;
-    margin: 30px;
 }
 
 /********************
@@ -369,6 +333,16 @@ footer .copyright a:hover{
 }
 
 @media only screen and (max-width: 768px) {
+     .navbar-brand{
+        padding: 0;
+    }
+    .navbar-default .navbar-collapse{
+        background: var(--cor)!important;
+    }
+    .navbar-default .navbar-collapse:hover,
+    .navbar-default .navbar-collapse:focus{
+        background: var(--background)!important;
+    }
     .banner .carousel-caption{
         top: 15%;
     }
@@ -387,19 +361,10 @@ footer .copyright a:hover{
     .plano{
         margin: 0;
     }
-    .myig_gallery .user_gallery img {
+    .galeria .foto {
         width: 100%;
     }
-    .navbar-brand{
-        padding: 0;
-    }
-    .navbar-default .navbar-collapse{
-        background: var(--cor)!important;
-    }
-    .navbar-default .navbar-collapse:hover,
-    .navbar-default .navbar-collapse:focus{
-        background: var(--background)!important;
-    }
+   
 }
 @media screen and (min-width: 769px) and (max-width: 949px) {
     .carousel-caption{

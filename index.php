@@ -1,9 +1,7 @@
 <?php include 'header.php'; ?>
 <?php include 'mail.php'; ?>
-<?php include 'functions.php'; ?>
 
-<!--testando commit git agencia alca-->
-
+<!-- SLIDER PRINCIPAL -->
 <section class="sli-principal" id="home">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -50,18 +48,18 @@
             </div>
             <!-- Controls -->
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-chevron-left"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-chevron-right""></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
     </div>
-</section>
+</section><!-- FIM SLIDER PRINCIPAL -->
 
-
+<!-- SOBRE -->
 <section id="sobre" class="sobre">
     <div class="container">
         <div class="row">
@@ -92,10 +90,9 @@
             </div>
         </div>
     </div>
-</section>
+</section><!-- FIM SSOBRE -->
 
-
-
+<!-- VANTAGENS -->
 <section id="banner" class="banner">
     <div id="banners" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -147,9 +144,9 @@
             </a>
         </div>
     </div>
-</section>
+</section><!-- FIM VANTAGENS -->
 
-
+<!-- GALERIA -->
 <section id="servicos" class="servicos">
     <div class="container">
         <div class="titulo">
@@ -164,47 +161,47 @@
         <!-- incluindo carousel do instagram -->
         <div class="galeria">
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria1.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria2.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria3.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria4.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria5.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria6.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria7.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria8.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria9.jpg">
                 </a>
             </div>
@@ -222,8 +219,9 @@
         </div>
 
     </div>
-</section>
+</section><!-- FIM GALERIA -->
 
+<!-- RESPONSABILIDADE SOCIAL -->
 <section id="responsabilidade-social" class="responsabilidade-social">
     <div class="container">
         <div class="row">
@@ -254,9 +252,7 @@
             </div>
         </div>
     </div>
-</section>
-
-
+</section><!--  RESPONSABILIDADE SOCIAL -->
 
 <!-- <section id="planos" class="planos">
     <div class="container">
@@ -335,6 +331,8 @@
         </div>
 </section>
 -->
+
+<!-- CONTATO -->
 <section id="contato" class="contato">
     <div class="container">
         <div class="titulo">
@@ -352,7 +350,6 @@
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
         </div> -->
-
         <div id="map"></div>
 
         <div class="formulario-contato">
@@ -412,7 +409,7 @@
             </div>
         </div>
     </div>
-</section>
+</section><!-- CONTATO -->
 
 
 <?php include 'footer.php'; ?>
