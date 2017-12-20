@@ -3,16 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Arroyo Pets"/>
-        <meta name="keywords" content=""/>
+        <meta name="description" content="Arroyo Pets - A paixão pelos pets é o combustível que move a Arroyo Pets. Seu cão merece essa experiência!"/>
+        <meta name="keywords" content="pet"/>
         <meta name="author" content="Agência Alca"/>
 
         <title>Arroyo Pets</title>
         <link rel="icon" href="img/icon_am.png" />
-
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <style><?php echo file_get_contents("css/bootstrap.min.css"); ?></style>
+        <style><?php echo file_get_contents("css/font-awesome.min.css"); ?></style>
+        <style><?php echo file_get_contents("css/style.css"); ?></style>
+<!--        <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />-->
 
         <!-- Importação do chat wpp do site -->
         <script type="text/javascript" src="https://www.whatscompany.com.br/sistema/whats-chat/widget-init.php?end_code=UAC367DJHE5TS4VB9FRIYG1XO0MLKWPQ2Z8N20171218115236"></script>
