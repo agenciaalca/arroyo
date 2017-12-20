@@ -32,13 +32,13 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="http://arroyo.com.br"><img src="img/logo.png" width="150px"></a>
+                        <a class="navbar-brand" href="http://arroyopets.com.br/"><img src="img/logo.png" width="150px"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="http://arroyo.com.br">HOME</a></li>
+                            <li><a href="http://arroyopets.com.br/">HOME</a></li>
                             <li><a href="#sobre">SOBRE</a></li>
                             <li><a href="#servicos">GALERIA</a></li>
                             <!-- <li><a href="/#planos">PLANOS</a></li> -->
