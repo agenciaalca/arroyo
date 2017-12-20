@@ -161,47 +161,47 @@
         <!-- incluindo carousel do instagram -->
         <div class="galeria">
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria1.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria2.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria3.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria4.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria5.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria6.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria7.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria8.jpg">
                 </a>
             </div>
             <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                <a href="#" data-toggle="modal" data-target="#lightbox"> 
                     <img class="img-responsive" src="img/galeria9.jpg">
                 </a>
             </div>
@@ -356,6 +356,7 @@
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <form method="post" action="index.php#formulario" name="formulario-contato" data-toggle="validator" role="form">
+
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
@@ -368,8 +369,7 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="telefone" id="telefone" value="" placeholder="telefone*" required />
-                                    <div class="help-block with-errors"></div>
+                                    <input type="number" class="form-control" name="telefone" id="telefone" value="" placeholder="telefone" />
                                 </div>
                             </div>
                             <div class="col-sm-10">
@@ -384,8 +384,9 @@
                             </div>
                             <br>
                             <a name="formulario"></a>
-                            <div class="mensagem-alerta"><?php echo $msg ?></div>
+                            <div class="mensagem-alerta col-md-12"><?php echo $msg ?></div>
                         </div>
+
                     </form>
                 </div>
 

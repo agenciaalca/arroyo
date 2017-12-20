@@ -1,0 +1,15 @@
+body{background:url(../images/bg.jpg) center no-repeat fixed;font-family:arial, helvetica, sans-serif;width:100%;height:auto;margin-top:0px;margin-left:0px;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;}
+.formContato{width:100%;}
+.botaoContato{margin-left:10px;margin-right:10px;margin-top:1px;}
+.saudacao{width:100%;padding-left:10px;color:#292929;font-size:13px;font-family:arial, helvetica, sans-serif;background-color:#F7FFF0;border:1px solid #E9E9E9;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;height:70px;margin-bottom:10px;border-bottom:1px solid #ccc;border-left:1px solid #ccc;resize:none;margin-top:3px;}
+.nome{width:49%;padding-left:10px;color:#292929;font-size:14px;background-color:#F7FFF0;border:1px solid #E9E9E9;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;height:40px;margin-bottom:10px;margin-left:1px;border-bottom:1px solid #ccc;border-left:1px solid #ccc;box-shadow:2px 2px 5px #999;}
+.tel{width:48%;padding-left:10px;color:#292929;font-size:14px;background-color:#F7FFF0;border:1px solid #E9E9E9;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;height:40px;margin-bottom:10px;margin-left:1px;border-bottom:1px solid #ccc;border-left:1px solid #ccc;box-shadow:2px 2px 5px #999;}
+.email{width:99%;padding-left:10px;color:#292929;font-size:14px;background-color:#F7FFF0;border:1px solid #E9E9E9;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;height:40px;margin-bottom:10px;margin-left:1px;border-bottom:1px solid #ccc;border-left:1px solid #ccc;box-shadow:2px 2px 5px #999;}
+.setor{width:99%;padding-left:10px;color:#292929;font-size:14px;background-color:#F7FFF0;border:1px solid #E9E9E9;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;height:40px;margin-bottom:10px;margin-left:1px;border-bottom:1px solid #ccc;border-left:1px solid #ccc;box-shadow:2px 2px 5px #999;}
+.mensagem{width:80%;padding-left:10px;color:#292929;font-size:13px;font-family:arial, helvetica, sans-serif;background-color:#F7FFF0;border:1px solid #E9E9E9;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;height:70px;margin-bottom:20px;margin-left:1px;border-bottom:1px solid #ccc;border-left:1px solid #ccc;box-shadow:2px 2px 5px #999;resize:none;}
+.botaoContato{float:right;margin-top:0px;margin-left:5px;margin-right:5px;border:none;color:white;padding:0px 0px;text-align:center;text-decoration:none;display:inline-block;font-size:0px;cursor:pointer;}
+.botaoContato:hover{opacity:1.0;transition:1s;}
+div [id=ass]{height:50px;outline:0;padding-left:5px;padding-right:10px;margin-top:-15px;font-size:11px;}
+.btn-toggle{display:none;}
+@media screen and (max-width:280px){#MsgTop{display:none;}
+}

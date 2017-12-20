@@ -6,7 +6,7 @@ function initMap() {
     mapTypeId: 'roadmap'
   });
 
-  var iconBase = 'http://agenciaalca.com/projetos/arroyo/img/';
+  var iconBase = 'http://arroyopets.com.br/img/';
   var icons = {
     arroyo: {
       icon: iconBase + 'mapa.png'

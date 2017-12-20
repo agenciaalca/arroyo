@@ -29,7 +29,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="http://agenciaalca.com/projetos/arroyo"><img src="img/logo.png" width="150px"></a>
+                        <a class="navbar-brand" href="http://arroyo.com.br"><img src="img/logo.png" width="150px"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->

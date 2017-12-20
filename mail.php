@@ -1,22 +1,19 @@
 <?php
+
 $msg = "";
 if (isset($_POST['submit']) && $_POST['submit'] == 'ENVIAR') {
     $nome = $_POST['nome'];
     $email = $_POST['email'];
-    if (empty($telefone)){
-        $telefone = 'Telefone não preenchido';
-    }else{
-        $telefone = $_POST['telefone'];
-    }
+    $telefone = $_POST['telefone'];
     $mensagem = $_POST['mensagem'];
 
-    $formcontent = "FORMULÁRIO DE CONTATO\n"
+    $formcontent = "FORMULÁRIO DE CONTATO- Arroyo Pets\n"
             . "\nDe: " . $nome
             . "\nEmail: " . $email
             . "\nTelefone: " . $telefone
             . "\nMensagem: " . $mensagem;
 
-    $recipient = "cristiane@agenciaalca.com";
+    $recipient = "contato@arroyopets.com.br";
     $subject = "Formulário de Contato - Arroyo Pets";
     $mailheader = "De: " . $email . "\r\n";
 
@@ -30,7 +27,7 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'ENVIAR') {
     } else {
         $msg = '<div class="alert alert-danger alert-dismissable">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                <strong>Erro ao enviar a mensagem, tente novamente mais tarde! </strong> 
+                <strong>Erro ao enviar a mensagem, tente novamente! </strong> 
             </div>';
     }
 }
