@@ -7,6 +7,8 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <!-- Bootstrap version 3.7 -->
 <script src="js/bootstrap.min.js"></script>
+<!-- Bootstrap scrollspy -->
+<script src="js/scrollspy.js"></script>
 <!-- Bootstrap validator Validator v0.11.9 for Bootstrap 3 -->
 <script src="js/validator.min.js"></script>
 <!-- js google maps -->
