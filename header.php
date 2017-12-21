@@ -18,6 +18,18 @@
 
         <!-- Importação do chat wpp do site -->
         <script type="text/javascript" src="https://www.whatscompany.com.br/sistema/whats-chat/widget-init.php?end_code=UAC367DJHE5TS4VB9FRIYG1XO0MLKWPQ2Z8N20171218115236"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111509127-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-111509127-1');
+        </script>
     </head>
     <body >
         <!-- navbar -->
