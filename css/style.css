@@ -155,10 +155,13 @@
 
 
 /********************
-    INSTAGRAM 
+    GALERIA 
 ********************/
 .foto{
     margin-bottom: 3%;
+}
+.foto img{
+    width: 100%;
 }
 #lightbox .modal-content {
     display: inline-block;
@@ -229,8 +232,9 @@
 }
 .redes-sociais{
     text-align: center;
+    padding: 0;
 }
-.redes-sociais a{
+.redes-sociais .padd{
     padding-right: 15px;
 }
 

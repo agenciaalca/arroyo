@@ -402,7 +402,7 @@
                             <p>(62) 3988-2815 <br>(62) 98223-9339</p>
                         </div>
                         <div class="redes-sociais col-xs-12">
-                            <a href="#"><img src="img/fb-icon.png" width="55px"></a>
+                            <a class="padd" href="#"><img src="img/fb-icon.png" width="55px"></a>
                             <a href="#"><img src="img/ig-icon.png" width="55px"></a>
                         </div>
                     </div>
