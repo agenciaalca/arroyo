@@ -350,7 +350,7 @@
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
         </div> -->
-        <div id="map"></div>
+        <a href="https://www.google.com.br/maps/dir//Arroyo+Pets+-+Av.+C-264,+177+-+St.+Nova+Suica,+Goi%C3%A2nia+-+GO,+74280-220/@-16.7182903,-49.2742602,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x935ef0d852052f0f:0xb54399790432f7ab!2m2!1d-49.2720662!2d-16.7182903" target="_blank"><div id="map"></div>
 
         <div class="formulario-contato">
             <div class="row">
@@ -402,8 +402,8 @@
                             <p>(62) 3988-2815 <br>(62) 98223-9339</p>
                         </div>
                         <div class="redes-sociais col-xs-12">
-                            <a class="padd" href="#"><img src="img/fb-icon.png" width="55px"></a>
-                            <a href="#"><img src="img/ig-icon.png" width="55px"></a>
+                            <a class="padd" href="https://www.facebook.com/arroyopetss/" target="_blank"><img src="img/fb-icon.png" width="55px"></a>
+                            <a href="https://www.instagram.com/arroyopets/" target="_blank"><img src="img/ig-icon.png" width="55px"></a>
                         </div>
                     </div>
                 </div>
