@@ -1,0 +1,96 @@
+:root{--cor:#07AB94;}
+:root{--background:#FDB617;}
+:root{--texto:#eee;}
+.mensagem-alerta{padding:20px 0;}
+.container{max-width:950px;}
+.no-padding{padding:5px 0 20px 0;}
+.navbar-default.affix{background-color:var(--cor);color:#fff;border:none;}
+.navbar-default{background:transparent;z-index:5;transition:all .35s;border:none;height:60px;}
+.navbar-default .navbar-nav > li > a{color:#fff;padding-top:20px;height:60px;}
+.navbar-default .navbar-nav .active> a,
+.navbar-default .navbar-nav .active> a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li >a:hover{color:#eee;background-color:var(--background);}
+.navbar-brand{padding-top:5px;}
+.sli-principal{margin:0;}
+.sli-principal img{width:100%;}
+.carousel-caption{top:40%;color:var(--texto);}
+.titulo{margin-bottom:40px;}
+.icones-img,
+.titulo-img{float:left;display:inline-block;}
+.info{margin-bottom:20px;}
+.info img{max-width:48px;float:left;margin-right:3%}
+.info p{padding-top:7px;}
+.espaco{margin:25px;}
+.titulos{display:inline-block;margin:1.5% 0 0 1.5%;}
+.titulos h2, h1{padding:0;margin:0;letter-spacing:4px;}
+.titulos h2{font-size:1em;}
+.titulos h1{font-size:1.3em;}
+.mapa,
+.formulario-contato,
+.descricao{margin:20px 0 25px;}
+.btn-custom{background-color:var(--cor);color:var(--texto);border-radius:0px;}
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom:hover{background-color:var(--cor);color:var(--texto);}
+#sobre,
+#responsabilidade-social,
+#contato,
+#servicos,
+#planos{background-image:url('../img/background.png');padding:50px 0;}
+.sobre, .responsabilidade-social{padding:20px 0;}
+.sobre .btn-custom{width:200px;margin-top:20px;}
+.banner img{width:100%;height:100%;}
+.foto{margin-bottom:3%;}
+#lightbox .modal-content{display:inline-block;text-align:center;}
+#lightbox .close{opacity:1;color:rgb(255, 255, 255);background-color:rgb(25, 25, 25);padding:5px 8px;border-radius:30px;border:2px solid rgb(255, 255, 255);position:absolute;top:-15px;right:-55px;z-index:1032;}
+.plano{border:2px solid #FDB617;padding:5%;margin-right:3%;}
+.titulo-back p{background-color:var(--cor);color:#fff;width:35px;float:left;}
+.titulo-back p{font-size:2em;font-weight:900;text-align:center;}
+.titulo-plano{padding-left:50px;}
+.titulo-plano h1{font-size:1.3em;margin:auto 0;}
+.titulo-plano h2{font-size:1.1em;margin:auto 0;}
+#map{height:400px;}
+.formulario-contato .btn-custom{background-color:var(--cor);color:var(--texto);bottom:15px;position:absolute;right:15px;border-radius:0px;}
+.redes-sociais{margin:0 auto;padding:10px 10px 0 0;overflow:hidden;position:relative;text-align:center;}
+.redes-sociais a{padding-right:15px;}
+.form-control{background-color:#d5d5d5;color:var(--cor)!important;border-radius:0px;border:none;}
+input{outline:none;}
+::-webkit-input-placeholder{color:var(--cor)!important;transition:opacity 250ms ease-in-out;}
+:focus::-webkit-input-placeholder{opacity:0.5;}
+:-ms-input-placeholder{color:var(--cor)!important;transition:opacity 250ms ease-in-out;}
+:focus:-ms-input-placeholder{opacity:0.5;}
+::-moz-placeholder{color:var(--cor);opacity:1;transition:opacity 250ms ease-in-out;}
+:focus::-moz-placeholder{opacity:0.5;}
+:-moz-placeholder{color:var(--cor);opacity:1;transition:opacity 250ms ease-in-out;}
+:focus:-moz-placeholder{opacity:0.5;}
+.page-header{background-image:url("../img/sobre-bg.jpg");height:450px;margin:0 0 30px 0;}
+.imagem-sobre{float:right;max-width:50%;margin-left:20px;margin-bottom:20px;}
+.conteudo{margin:30px 0;}
+.conteudo .planos{margin:30px 0;}
+.conteudo .plano{margin-bottom:30px;}
+footer{padding:5px;bottom:0;background-color:var(--background);}
+footer .copyright{font-weight:300;margin:0 auto;padding:5px 0 5px;text-align:center;font-size:1.1em;line-height:36px;color:#fff;}
+footer .copyright a{color:#fff;}
+footer .copyright a:hover{color:#00d287;font-weight:700;}
+@media only screen and (max-width:768px){.navbar-brand{padding:0;}
+.navbar-default .navbar-collapse{background:var(--cor)!important;}
+.navbar-default .navbar-collapse:hover,
+.navbar-default .navbar-collapse:focus{background:var(--background)!important;}
+.banner .carousel-caption{top:15%;}
+.sli-principal .carousel-caption{top:12%;}
+.banner .item img{height:300px;}
+.sli-principal .item img{height:300px;}
+.carousel-caption h1{font-size:1.4em;}
+.plano{margin:0;}
+.galeria .foto{width:100%;}
+}
+@media screen and (min-width:769px) and (max-width:949px){.carousel-caption{top:30%;}
+.plano{margin:5%;}
+.myig_gallery .user_gallery img{width:45%;}
+}
+@media only screen and (min-width:950px){.plano{max-width:30%;}
+}
+.redes-sociais img:hover{opacity:0.7;}
+.btn-custom:hover{background-color:#fdb618;}

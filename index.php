@@ -1,6 +1,5 @@
 ﻿<?php include 'header.php'; ?>
 <?php include 'mail.php'; ?>
-<?php include 'functions.php'; ?>
 
 <!-- SLIDER PRINCIPAL -->
 <section class="sli-principal" id="home">
@@ -160,38 +159,10 @@
             </div>
         </div>
         <!-- incluindo carousel do instagram -->
-        <div class="galeria">
-            <?php  
-                $instagram = instagram();
-                
-                $count = 0; 
-                foreach ($instagram as $value) {
-                    $count++;
-                    $html .= ' <div class="foto col-md-4 col-sm-6 col-xs-12" style="height:275px;overflow:hidden;">';
-                    $html .= '<a href="javascript:;" class="instagram-img" data-toggle="modal" data-target="#lightbox">';
-                    $html .= '<img src="'.$value->images->low_resolution->url.'" class="img-responsive">';
-                    $html .= '</a>';
-                    $html .= '</div>';
-                    if ($count >= 9){
-                        break;
-                    }
-                }
-
-                echo $html;
-                ?>
-           
-
-        <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <img src="" alt="" />
-                    </div>
-                </div>
-            </div>
-        </div>
-
+       
+            <div id="instafeed" class="instafeed"></div>
+            <div class="btn-instagram"><button class="btn btn-custom" id="load-more">Veja mais</button></div>
+       
     </div>
 </section><!-- FIM GALERIA -->
 
