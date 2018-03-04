@@ -1,5 +1,6 @@
-<?php include 'header.php'; ?>
+﻿<?php include 'header.php'; ?>
 <?php include 'mail.php'; ?>
+<?php include 'functions.php'; ?>
 
 <!-- SLIDER PRINCIPAL -->
 <section class="sli-principal" id="home">
@@ -43,7 +44,7 @@
                     <h1>NATAÇÃO</h1>
                     <p>Em uma big piscina de 35m monitores e veterinários desenvolvem atividades recreativas, de
                         fisioterapia, para perda dos quilinhos extras ou só para se refrescar mesmo num dia de muito
-                        calor e baixa humidade.</p>
+                        calor e baixa umidade.</p>
                 </div>
             </div>
             <!-- Controls -->
@@ -160,52 +161,25 @@
         </div>
         <!-- incluindo carousel do instagram -->
         <div class="galeria">
-            <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
-                    <img class="img-responsive" src="img/galeria1.jpg">
-                </a>
-            </div>
-            <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
-                    <img class="img-responsive" src="img/galeria2.jpg">
-                </a>
-            </div>
-            <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
-                    <img class="img-responsive" src="img/galeria3.jpg">
-                </a>
-            </div>
-            <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
-                    <img class="img-responsive" src="img/galeria4.jpg">
-                </a>
-            </div>
-            <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
-                    <img class="img-responsive" src="img/galeria5.jpg">
-                </a>
-            </div>
-            <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
-                    <img class="img-responsive" src="img/galeria6.jpg">
-                </a>
-            </div>
-            <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
-                    <img class="img-responsive" src="img/galeria7.jpg">
-                </a>
-            </div>
-            <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
-                    <img class="img-responsive" src="img/galeria8.jpg">
-                </a>
-            </div>
-            <div class="foto col-md-4 col-sm-6 col-xs-12">
-                <a href="#" data-toggle="modal" data-target="#lightbox"> 
-                    <img class="img-responsive" src="img/galeria9.jpg">
-                </a>
-            </div>
-        </div>
+            <?php  
+                $instagram = instagram();
+                
+                $count = 0; 
+                foreach ($instagram as $value) {
+                    $count++;
+                    $html .= ' <div class="foto col-md-4 col-sm-6 col-xs-12" style="height:275px;overflow:hidden;">';
+                    $html .= '<a href="javascript:;" class="instagram-img" data-toggle="modal" data-target="#lightbox">';
+                    $html .= '<img src="'.$value->images->low_resolution->url.'" class="img-responsive">';
+                    $html .= '</a>';
+                    $html .= '</div>';
+                    if ($count >= 9){
+                        break;
+                    }
+                }
+
+                echo $html;
+                ?>
+           
 
         <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -407,6 +381,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

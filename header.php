@@ -4,17 +4,26 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Arroyo Pets - A paixão pelos pets é o combustível que move a Arroyo Pets. Seu cão merece essa experiência!"/>
-        <meta name="keywords" content="pet"/>
+        <meta name="keywords" content="pet, creche-cachorros"/>
         <meta name="author" content="Agência Alca"/>
+
+        <meta property="og:image" content="http://arroyopets.com.br/img/icone.jpg">
+        <!--<meta name="description" content="https://arroyopets.com.br/img/icone.jpg">-->
+        <meta property="og:image" content="www.meusite.com.br/imagem.jpg">
+        <meta property="og:image:type" content="http://arroyopets.com.br/img/icone.jpg">
+        <meta property="og:image:width" content="80">
+        <meta property="og:image:height" content="60"> 
 
         <title>Arroyo Pets</title>
         <link rel="icon" href="img/icon_am.png" />
+
         <style><?php echo file_get_contents("css/bootstrap.min.css"); ?></style>
         <style><?php echo file_get_contents("css/font-awesome.min.css"); ?></style>
         <style><?php echo file_get_contents("css/style.css"); ?></style>
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+
 
         <!-- Importação do chat wpp do site -->
         <script type="text/javascript" src="https://www.whatscompany.com.br/sistema/whats-chat/widget-init.php?end_code=UAC367DJHE5TS4VB9FRIYG1XO0MLKWPQ2Z8N20171218115236"></script>
