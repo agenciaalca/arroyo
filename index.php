@@ -159,10 +159,8 @@
             </div>
         </div>
         <!-- incluindo carousel do instagram -->
-       
-            <div id="instafeed" class="instafeed"></div>
-            <div class="btn-instagram"><button class="btn btn-custom" id="load-more">Veja mais</button></div>
-       
+        <div id="instafeed" class="instafeed"></div>
+        <div class="btn-instagram"><button class="btn btn-custom" id="load-more">Veja mais</button></div>
     </div>
 </section><!-- FIM GALERIA -->
 
@@ -184,11 +182,9 @@
                     <p>Movidos pelo sentimento de mudança e em respeito aos animais, Alexandre, Rafael e Victor,
                         sócios proprietários da ARROYO PETs optaram na conceituação da empresa, por atuar de
                         forma concreta na proteção e defesa dos cães abandonados ou vítimas de maus tratos.</p>
-
                     <p>A Arroyo mantém em sua estrutura um número pré-determinado de vagas para lar temporário
                         apoiando e contribuindo com aqueles que resgatam e fazem a adoção responsável desses cães
                         que na maioria, por não ter raça definida sofrem a dor do abandono.</p>
-
                     </p>
                 </div>
             </div>
@@ -301,7 +297,6 @@
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <form method="post" action="index.php#formulario" name="formulario-contato" data-toggle="validator" role="form">
-
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
@@ -331,10 +326,8 @@
                             <a name="formulario"></a>
                             <div class="mensagem-alerta col-md-12"><?php echo $msg ?></div>
                         </div>
-
                     </form>
                 </div>
-
                 <div class="col-md-4 col-xs-12">
                     <div class = "informacoes-contato">
                         <div class="info">
@@ -352,7 +345,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
