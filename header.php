@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html  lang="pt-br>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,11 +32,8 @@
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111509127-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
+            function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'UA-111509127-1');
         </script>
     </head>
@@ -62,6 +59,7 @@
                             <li><a href="http://arroyopets.com.br/">HOME</a></li>
                             <li><a href="#sobre">SOBRE</a></li>
                             <li><a href="#servicos">GALERIA</a></li>
+                            <li><a href="#imprensa">IMPRENSA</a></li>
                             <!-- <li><a href="/#planos">PLANOS</a></li> -->
                             <li><a href="#contato">CONTATO</a></li>
                         </ul>

@@ -213,6 +213,17 @@
 
     z-index:1032;
 }
+/********************
+    IMPRENSA 
+********************/
+.single-image-imp{
+    margin-bottom: 3%;
+}
+.video-imprensa{
+    height: 500px;
+    margin-bottom: 5%;
+}
+
 
 /********************
     PLANOS 
@@ -395,6 +406,9 @@ footer .copyright a:hover{
     }
     .galeria .foto {
         width: 100%;
+    }
+    .video-imprensa{
+        height: 250px;
     }
    
 }
