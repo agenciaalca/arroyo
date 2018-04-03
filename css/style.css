@@ -216,14 +216,30 @@
 /********************
     IMPRENSA 
 ********************/
-.single-image-imp{
-    margin-bottom: 3%;
+#imprensa{
+    margin: 5% 0;
 }
+.single-image-imp{
+    margin-bottom: 10%;
+    position:relative;
+    
+}
+
 .video-imprensa{
     height: 500px;
     margin-bottom: 5%;
 }
 
+#imghover:hover:before{
+    background: rgba(0, 0, 0, 0.5);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index:0;
+} 
 
 /********************
     PLANOS 

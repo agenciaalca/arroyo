@@ -183,51 +183,69 @@
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5-N5RRSXJrk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-6 single-image-imp">
-                <a href="https://www.youtube.com/watch?v=DP8eELd6TYg" target="_blank" rel="noopener">
-                    <img src="img/imprensa/bd.png" alt="Imprensa arroyo pets" class="img-responsive">
-                </a>
+        <div class="row grid-imprensa">
+            <div class="col-md-4 col-sm-6">
+                <div class="single-image-imp">
+                    <a id="imghover"  href="https://www.youtube.com/watch?v=DP8eELd6TYg" target="_blank" rel="noopener">
+                        <img src="img/imprensa/bd.png" alt="Imprensa arroyo pets" class="img-responsive">
+                    </a>
+                </div>
             </div>
-            <div class="col-md-4 col-sm-6 single-image-imp">
-                <a href="https://www.youtube.com/watch?v=-5UBGcb1kTU&feature=youtu.be" target="_blank" rel="noopener" >
+            <div class="col-md-4 col-sm-6">
+                <div class="single-image-imp">
+                <a id="imghover" href="https://www.youtube.com/watch?v=-5UBGcb1kTU&feature=youtu.be" target="_blank" rel="noopener" >
                     <img src="img/imprensa/Hotel_para_cães.png" alt="Imprensa arroyo pets" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 single-image-imp">
-                <a href="http://www.curtamais.com.br/goiania/onde-encontrar-dog-walkers-em-goiania" target="_blank" rel="noopener">
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="single-image-imp">
+                <a id="imghover" href="http://www.curtamais.com.br/goiania/onde-encontrar-dog-walkers-em-goiania" target="_blank" rel="noopener">
                     <img src="img/imprensa/hotel-para-caes-3.png" alt="Onde encontrar dog walkers em goiania" title="Onde encontrar dog walkers em goiania" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 single-image-imp">
-                <a href="http://g1.globo.com/goias/videos/t/todos-os-videos/v/moradores-reclamam-de-fezes-de-animais-em-calcadas-de-goiania/5282835/" target="_blank" rel="noopener">
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="single-image-imp">
+                <a id="imghover" href="http://g1.globo.com/goias/videos/t/todos-os-videos/v/moradores-reclamam-de-fezes-de-animais-em-calcadas-de-goiania/5282835/" target="_blank" rel="noopener">
                     <img src="img/imprensa/hotel-para-caes-4.png" alt="Moradores reclamam de fezes de animais em calcadas de goiania" title="Video sobre moradores reclamam de fezes de animais em calcadas de goiania" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 single-image-imp">
-                <a href="https://www.facebook.com/arroyopetss/videos/369758696505088/" target="_blank" rel="noopener">
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="single-image-imp">
+                <a id="imghover" href="https://www.facebook.com/arroyopetss/videos/369758696505088/" target="_blank" rel="noopener">
                     <img src="img/imprensa/hotel-para-caes-5.png" alt="Imprensa arroyo pets" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 single-image-imp">
-                <a href="https://noticias.r7.com/fala-brasil/videos/creches-acolhem-pets-enquanto-donos-viajam-12022018" target="_blank" rel="noopener">
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="single-image-imp">
+                <a id="imghover" href="https://noticias.r7.com/fala-brasil/videos/creches-acolhem-pets-enquanto-donos-viajam-12022018" target="_blank" rel="noopener">
                     <img src="img/imprensa/hotel-para-caes-6.png" alt="Creches acolhem pets enquanto donos viajam" title="Creches acolhem pets enquanto donos viajam" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 single-image-imp">
-                <a href="https://www.instagram.com/p/Bf_gJajnsbV/" target="_blank" rel="noopener">
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="single-image-imp">
+                <a id="imghover" href="https://www.instagram.com/p/Bf_gJajnsbV/" target="_blank" rel="noopener">
                     <img src="img/imprensa/hotel-para-caes-7.png" alt="Imprensa arroyo pets" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 single-image-imp">
-                <a href="http://www.diariodeaparecida.com.br/home/goiania-ganha-hotel-e-creche-para-animais/" target="_blank" rel="noopener">
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="single-image-imp">
+                <a id="imghover"  href="http://www.diariodeaparecida.com.br/home/goiania-ganha-hotel-e-creche-para-animais/" target="_blank" rel="noopener">
                     <img src="img/imprensa/hotel-para-caes.png" alt="Goiânia ganha hotel e creche para animais" title="Goiânia ganha hotel e creche para animais" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 single-image-imp">
-                <a href="https://www.facebook.com/DanilaGuimaraesDG/videos/vb.149004848511006/1202734396471374/?type=2&theater" target="_blank" rel="noopener">
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="single-image-imp">
+                <a id="imghover" href="https://www.facebook.com/DanilaGuimaraesDG/videos/vb.149004848511006/1202734396471374/?type=2&theater" target="_blank" rel="noopener">
                     <img src="img/imprensa/pet-friendly-2.png" alt="Imprensa arroyo pets" class="img-responsive">
                 </a>
+            </div>
             </div>
         </div>
     </div>
